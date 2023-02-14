@@ -56,7 +56,6 @@ function App() {
         } 
     }
 
-    //setTimeout(() => {setPercent("")}, 10000);
 
     if(click !== "")
     {
@@ -109,24 +108,6 @@ function App() {
     mozbackgroundsize: `cover`,
     obackgroundsize: `cover`,
   };
-
-  // const CalcAmount = (perc) =>{
-  //   if(bill < 0 || people < 0 || bill === "0" || people === "0" || bill === "")
-  //   {
-  //     return setTip("0.00"), setTotal("0.00");
-  //   }
-  //   if(people !== "")
-  //   {
-  //     const tip = bill * perc;
-  //     const result = ((+bill) + (bill * perc)) / (+people);
-  //     const perPersonTip = tip / people;
-  //     setTip(perPersonTip.toFixed(2))
-  //     setTotal(result.toFixed(2));
-  //     setReset(1);
-  //     setPercent("");
-  //   }
-  // }
-
 
   const resetAll = () =>{
     if(total !== "" && reset === 1)
